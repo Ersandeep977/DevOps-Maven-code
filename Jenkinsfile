@@ -17,5 +17,12 @@ pipeline
                 sh 'date'
             }
         }
+        stage('ContinDel')
+        {
+            steps
+            {
+                sh 'date'
+            }
+        }
     }    
 }
