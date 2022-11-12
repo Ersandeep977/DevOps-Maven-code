@@ -10,5 +10,12 @@ pipeline
                 git 'https://github.com/Ersandeep977/DevOps-Maven-code.git'
             }
         }
+        stage('ContinTesting')
+        {
+            steps
+            {
+                sh 'date'
+            }
+        }
     }    
 }
